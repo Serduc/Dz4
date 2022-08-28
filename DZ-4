@@ -1,0 +1,45 @@
+from traceback import print_list
+
+
+line = '1, 2, 3, 4, 5, 6, 7, 8, 9' == []
+for i in range (len (line)): 
+    if line[i] != ',' and line [i] != '':
+
+        list.append(int(line[i]))
+        print(*list)
+        print(f'Min:{min(list)}')
+        print(f'Max:{min(list)}')
+        
+        2 программ
+
+
+from ast import If, While
+from enum import Flag
+
+
+chislo = int (input())
+While 
+ if chislo == 1:
+    flag = True
+    break
+
+chislo = chislo /4
+
+If (chislo %4 >0 and chislo ! = 1):
+flag = False
+break
+print (flag)
+
+3 программа
+
+from collections import Counter
+
+number = [2, 7, 11, 13]
+target = 9
+
+data_counter = Counter(number)
+
+for i in data_counter:
+    if target - i in data_counter and( i != target - i or data_counter [target - i]>1):
+        print ( i, target - i)
+        break
